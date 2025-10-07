@@ -37,15 +37,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
   background-color: #87b7ff;
   padding-top: 9%;
 }
 
 .mainBar {
-  width: 60%;
   height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: var(--white);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 2vw;
 }
