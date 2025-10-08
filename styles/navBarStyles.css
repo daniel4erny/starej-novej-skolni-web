@@ -32,6 +32,11 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url("../images/gyriBackground.jpg");
+  background-size: cover;          /* roztáhne obrázek přes celé pozadí */
+  background-position: center;     /* zarovná ho na střed */
+  background-repeat: no-repeat;    /* zabrání opakování obrázku */
+  background-attachment: fixed;    /* zajistí, že se obrázek nehýbe při scrollování */
 }
 
 /* NAVBAR STYLES */
